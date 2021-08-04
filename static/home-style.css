@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@200;400&display=swap');
+
+/*CSS Reset*/
+*{
+    padding: 0;
+    margin: 0;
+    color: black;
+    font-family: 'Prompt', sans-serif;
+}
+#intro{
+    width: 100vw;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    color: white;
+    font-size: 4rem;
+    font-weight: bold;
+}
+@media (max-width: 1200px){
+
+    #intro{
+        width: 100vw;
+        height: 50vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        color: white;
+        font-size: 4rem;
+        font-weight: bold;
+    }
+    }
+    
+#intro div{
+    
+    color: white;
+    z-index: -1;
+    font-size: 4rem;
+    font-weight: bold;
+    
+}
+
+
+#intro::before{
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: url('https://images.pexels.com/photos/209948/pexels-photo-209948.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940')  no-repeat bottom/cover;
+    z-index: -2;
+}
+
+#mission{
+    display: flex;
+   
+    height: 30vh;
+    background-color: rgb(252, 252, 252);
+    justify-content: center;
+    align-items: center;
+    
+
+}
+@media (max-width: 1200px), (max-height: 700px) {
+
+#mission{
+    display: flex;
+    flex-direction: column;
+    
+    height: 140vh;
+    background-color: rgb(252, 252, 252);
+    justify-content: space-around;
+    align-items: center;
+    
+    }
+}
+
+
+#mission h3{
+    text-align: center;
+} 
+
+
+.card{
+    display: inline-block;
+    width: 25%;
+    height: 20vh;
+    
+    /*border: 2px solid black;*/
+    text-align: center;
+    margin: 30px 48px;
+}
+.card-img{
+    display: flex;
+    flex-direction: column;
+    height: 35vh;
+    align-items: center;
+    justify-content: center;
+    border-radius: 2px;
+    font-weight: bold;
+    font-size: 1.5rem;
+    
+}
+.card-img img{
+    height: inherit;
+    border: 2px solid rgb(179, 147, 147);
+    border-radius: 5px;
+}
+
+#color-box{
+    width: 98%;
+    height: 20vh;
+    background-color: rgb(66 67 67 / 83%);
+    margin: 0 auto;
+}

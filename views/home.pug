@@ -1,0 +1,21 @@
+extends base.pug
+block scripts
+    script(src='../static/script.js')
+block style
+    style
+      include ../static/home-style.css
+block content
+    
+    section#intro 
+       div  Welcome to Dance Academy
+    section#mission
+        div.card  
+          div.card-img Ballet
+            img(src="/static/img/ballet.jpg", alt="")
+        div.card 
+          div.card-img Hip Hop
+            img(src="/static/img/hiphop.jpg", alt="")
+        div.card 
+          div.card-img Ball
+            img(src="/static/img/ball.jpg", alt="")
+    section#color-box 

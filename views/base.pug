@@ -1,0 +1,22 @@
+doctype html
+html
+  head
+    title Shourya Dance Academy
+    block scripts
+    block style
+    style
+      include ../static/base-style.css
+      
+  body
+    nav#navbar 
+        ul 
+            div#logo 
+              img(src="/static/img/logo.jpg", alt="logo")
+              | SDA
+            li #[a(href="/") Home]
+            li #[a(href="/") About]
+            li #[a(href="/") Service]
+            li #[a(href="/contact") Contact Us]
+    block content
+    footer#footer 
+        | Copyright © 2021 ShouryaDanceAcademy.com | All right reserved

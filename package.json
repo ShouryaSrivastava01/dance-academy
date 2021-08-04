@@ -1,0 +1,27 @@
+{
+  "homepage": "http://ShouryaSrivastava01.github.io/js-file",
+  "name": "my_dance_academy",
+  "version": "1.0.0",
+  "description": "This is a  dance academy website using Pug.",
+  "main": "app.js",
+  "scripts": {
+    "predeploy":"npm run build",
+    "deploy":"gh-pages -d build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "dance",
+    "academy",
+    "Pug"
+  ],
+  "author": "Shourya Srivastava",
+  "license": "ISC",
+  "dependencies": {
+    "body": "^5.1.0",
+    "express": "^4.17.1",
+    "gh-pages": "^3.2.3",
+    "mongoose": "^5.12.0",
+    "parser": "^0.1.4",
+    "pug": "^3.0.2"
+  }
+}

@@ -1,0 +1,33 @@
+doctype html
+html
+  head
+    title Dance is Life
+    style
+      include ../static/style.css
+  body
+    nav#navbar 
+        ul 
+            div#logo 
+              img(src="/static/img/logo.jpg", alt="logo")
+              | SDA
+            li #[a(href="/") Home]
+            li #[a(href="/") About]
+            li #[a(href="/") Service]
+            li #[a(href="/") Contact Us]
+    section#intro 
+        div   Welcome to Dance Academy
+    section#mission
+        div.card  
+          div.card-img Ballet
+            img(src="/static/img/ballet.jpg", alt="")
+        div.card 
+          div.card-img Hip Hop
+            img(src="/static/img/hiphop.jpg", alt="")
+        div.card 
+          div.card-img Ball
+            img(src="/static/img/ball.jpg", alt="")
+    section#color-box 
+        
+    footer#footer 
+        | Copyright © 2021 ShouryaDanceAcademy.com | All right reserved
+    
